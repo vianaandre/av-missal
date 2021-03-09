@@ -1,0 +1,86 @@
+@import url("https://use.typekit.net/hoi5ecw.css");
+/* BUTTON ATIVO */
+.header .content-header .ativo {
+  border-bottom: solid 3px #000;
+}
+
+/* INTRO-EVENTOS */
+.intro-eventos {
+  background: url("../img/bg-foto-intro-eventos.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* EVENTOS */
+.eventos {
+  padding: 50px 0px;
+  padding-bottom: 30px;
+}
+.eventos .evento-evento {
+  margin-bottom: 20px;
+  float: left;
+}
+.eventos .evento-evento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 3px #000;
+}
+.eventos .evento-evento:nth-child(1) img {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.eventos .evento-evento div {
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  padding: 35px;
+}
+.eventos .evento-evento div h3 {
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+.eventos .evento-evento div p span {
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.eventos .evento-evento div p {
+  font-size: 14px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+.eventos .evento-evento div a {
+  font-family: Roboto, sans-serif;
+}
+.eventos .evento-evento div a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.eventos .secao-eventos-1 .evento-evento:nth-child(2) img {
+  margin-top: 59px;
+  margin-bottom: 60px;
+}
+.eventos .secao-eventos-1 .evento-evento:nth-child(3) img {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.eventos .secao-evento-2 .evento-evento:nth-child(1) img {
+  margin-top: 59px;
+  margin-bottom: 0;
+}
+.eventos .secao-evento-2 .evento-evento:nth-child(2) img {
+  margin-top: 67px;
+  margin-bottom: 67px;
+}
+.eventos .secao-evento-2 .evento-evento:nth-child(3) img {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}

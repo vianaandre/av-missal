@@ -1,0 +1,549 @@
+@import url("https://use.typekit.net/hoi5ecw.css");
+
+/* ESTILIZAÇÕES GLOBAIS  ... */
+/* Estilizando as intro */
+.intro {
+  padding: 75px 0px;
+}
+.intro .content-intro {
+  display: flex;
+  justify-content: center;
+}
+.intro .content-intro .content-intro-interna {
+  text-align: center;
+}
+.intro .content-intro .content-intro-interna h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+}
+.intro .content-intro .content-intro-interna p {
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  margin-top: 10px;
+}
+.intro .content-intro .content-intro-interna::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+a.saibamais {
+  padding: 5px 10px;
+  border: solid 2px #fff;
+  color: #fff;
+  background-color: #000;
+  font-family: Myriad Pro, sans-serif;
+}
+
+/* Estilizações Globais */
+a.button {
+  padding: 9px 31px;
+  border: 3px #000 solid;
+  color: #000000;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+}
+/* HEADER */
+.header {
+  background-color: #fff;
+}
+/* Estilizando */
+.header .content-header {
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  margin-left: 10px;
+  margin-top: 14px;
+  padding-right: 60px;
+}
+.header .navegacao {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 180px;
+  height: 116px;
+}
+.header .navegacao a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.04rem;
+  height: 100%;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.header .navegacao a:nth-child(5) {
+  margin-right: 0;
+}
+.header .navegacao a:hover {
+  box-sizing: border-box;
+  border-bottom: solid 3px #000;
+}
+
+/* INTRO-HOME */
+/* Estilizando a imagem de fundo */
+.intro-home {
+  background: url("../img/home/bg-intro-home.jpg") no-repeat center;
+  background-size: cover;
+  padding: 90px 0px;
+}
+.intro-home .intro-content::before,
+.intro-home .intro-content::after {
+  content: " ";
+  width: 4px;
+  height: 50px;
+  background-color: #fff;
+  margin: auto 30px;
+}
+.intro-home .intro-content {
+  display: flex;
+  justify-content: center;
+}
+.intro-home .intro-content .textos {
+  text-align: center;
+}
+.intro-home .intro-content .textos blockquote {
+  text-align: center;
+}
+.intro-home .intro-content .textos blockquote p {
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.06rem;
+  margin-bottom: 20px;
+  letter-spacing: 0.06rem;
+}
+.intro-home .intro-content .textos blockquote cite {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  letter-spacing: 00.06rem;
+  font-style: normal;
+}
+.intro-home .intro-content .textos h2 {
+  margin-top: 50px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  letter-spacing: 0.04rem;
+  color: #fff;
+}
+
+/* HOME-SOBRE */
+.home-sobre {
+  position: relative;
+  padding: 50px 0px;
+}
+.home-sobre .content-home-sobre {
+  display: flex;
+}
+/* Estilizando titulo */
+.home-sobre h2 {
+  font-size: 48px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 0px;
+}
+/* Estilizando o quebrador */
+.home-sobre .content-home-sobre::before {
+  content: " ";
+  width: 5px;
+  height: 100px;
+  background-color: #000000;
+  position: absolute;
+  left: 380px;
+  margin-top: 50px;
+}
+/* Estilizando os conteúdos */
+.home-sobre .content-home-sobre .information {
+  margin-left: 80px;
+}
+.home-sobre .content-home-sobre .information p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+.home-sobre .content-home-sobre .information a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+/* HOME-GRUPOS */
+.home-grupos {
+  background-color: #000;
+  padding: 50px 0px;
+}
+/* Estilizando a foto e o titulo */
+.home-grupos .content-home-grupos .grupos h2 {
+  font-size: 48px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: normal;
+}
+.home-grupos .content-home-grupos .grupos h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background-color: #fff;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+/* Estilizando a parte dos texto e button */
+.home-grupos .content-home-grupos .information-home-grupos {
+  margin-top: 80px;
+  margin-left: 60px;
+}
+.home-grupos .content-home-grupos .information-home-grupos p {
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  line-height: 30px;
+  margin-bottom: 62px;
+}
+.home-grupos .content-home-grupos .information-home-grupos a {
+  background-color: #000;
+  border-color: #fff;
+  color: #fff;
+}
+.home-grupos .content-home-grupos .information-home-grupos a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* HOME-EVENTOS */
+.home-eventos {
+  position: relative;
+  padding: 50px 0px;
+}
+/* Estilizando o titulo */
+.home-eventos h2 {
+  position: absolute;
+  font-size: 48px;
+  color: #000;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  text-transform: uppercase;
+}
+.home-eventos h2::after {
+  content: " ";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background-color: #000;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+/* Estilizando os eventos */
+.home-eventos .content-home-eventos .evento {
+  border: solid 5px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 145px;
+}
+/* Estilizando a imagem */
+.home-eventos .content-home-eventos div:nth-child(1) img {
+  padding: 40px 0px;
+}
+.home-eventos .content-home-eventos div:nth-child(1) {
+  margin-right: 40px;
+}
+.home-eventos .content-home-eventos div:nth-child(2) img {
+  padding: 16px 0px;
+}
+.home-eventos .content-home-eventos div:nth-child(3) img {
+  padding-top: 21px;
+}
+.home-eventos .content-home-eventos div:nth-child(3) {
+  margin-left: 40px;
+}
+/* Estilizando os content */
+.home-eventos .content-home-eventos div div {
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 25px;
+}
+.home-eventos .content-home-eventos div div h3 {
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  margin-top: 20px;
+}
+.home-eventos .content-home-eventos div div p span {
+  font-weight: bold;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.home-eventos .content-home-eventos div div p {
+  font-size: 14px;
+  color: #fff;
+  margin: 15px 0px;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 20px;
+}
+.home-eventos .content-home-eventos div div a {
+  font-family: Roboto, sans-serif;
+}
+.home-eventos .content-home-eventos div div a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* HOME-SERMOES */
+.sermoes {
+  background-color: #000;
+  padding: 50px 0px;
+}
+.home-sermoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Estilizando o titulo */
+.home-sermoes h2 {
+  font-size: 48px;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.home-sermoes h2::after {
+  content: " ";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background-color: #fff;
+  margin: 10px auto;
+  margin-bottom: 50px;
+}
+/*Estilizando o link*/
+.home-sermoes .link {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.home-sermoes .link h3 {
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 40px;
+}
+.home-sermoes .link h3:hover {
+  text-decoration: underline;
+}
+/*Estilizadando o Button*/
+.home-sermoes a.button {
+  border-color: #fff;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.home-sermoes a.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* FOOTER*/
+
+/* HOME INTRO-FOOTER */
+.intro-footer {
+  background: url("../img/home/bg-footer-frase-home.jpg") no-repeat center;
+  background-size: cover;
+  padding: 90px 0px;
+}
+/* Estilizando o content */
+.intro-footer .frase .content-intro-footer {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+}
+.intro-footer .frase .content-intro-footer::before,
+.intro-footer .frase .content-intro-footer::after {
+  content: " ";
+  width: 4px;
+  height: 50px;
+  background-color: #fff;
+  margin: auto;
+}
+.intro-footer .frase .content-intro-footer blockquote {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-footer .frase .content-intro-footer blockquote p {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-style: italic;
+  line-height: 25px;
+  letter-spacing: 0.06rem;
+  margin-bottom: 40px;
+}
+.intro-footer .frase .content-intro-footer blockquote cite {
+  font-size: 24px;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  letter-spacing: 0.08rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* HOME-FOOOTER-INFORMATION */
+.footer-home {
+  background-color: #000;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* Estilizando a parte de information */
+.footer-home .information-dados {
+  margin-right: 130px;
+}
+.footer-home .information-dados h2 {
+  font-size: 36px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-style: normal;
+  margin-bottom: 25px;
+  letter-spacing: 0.06rem;
+}
+.footer-home .information-dados ul {
+  margin-bottom: 120.58px;
+}
+.footer-home .information-dados ul li {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  line-height: 25px;
+}
+.footer-home .information-dados span {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+}
+
+/* Estilizando a parte de conexação */
+.footer-home .conexacao {
+  display: flex;
+  flex-direction: column;
+}
+.footer-home .content::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  left: 420px;
+}
+.footer-home .conexacao h2 {
+  font-size: 36px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-style: normal;
+  margin-bottom: 28px;
+  letter-spacing: 0.06rem;
+}
+.footer-home .conexacao form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-home .conexacao form input {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  padding: 10px 0px;
+  padding-left: 10px;
+  background-color: #000000;
+  border: solid 3px #fff;
+}
+.footer-home .conexacao form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.footer-home .conexacao form button {
+  background-color: #000;
+  border: solid 3px #fff;
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  width: 160px;
+  padding: 9px 0px;
+}
+.footer-home .conexacao form button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.footer-home .conexacao form button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.footer-home .conexacao ul {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-home .conexacao ul li:nth-child(1) a img {
+  margin-right: 30px;
+  padding: 10px 25px;
+  border: solid 3px #fff;
+}
+.footer-home .conexacao ul li:nth-child(2) a img {
+  padding: 10px 15px;
+  border: solid 3px #fff;
+}
+
+/* DIREITOS */
+/* Estilizando o content */
+.direitos {
+  background-color: #fff;
+  padding: 30px 10px;
+}
+.direitos p {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: #000000;
+}

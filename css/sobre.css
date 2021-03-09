@@ -1,0 +1,120 @@
+@import url("https://use.typekit.net/hoi5ecw.css");
+
+/* Estilizando o menu ativo */
+.header .navegacao .ativo {
+    border-bottom: #000 solid 3px;
+}
+/* INTRO-SOBRE */
+.intro-sobre {
+    background: url("../img/sobre/bg-foto-intro-sobre.jpg") no-repeat center;
+    background-size: cover;
+}
+/* SOBRE-MISSAO */
+.missao-sobre {
+    position: relative;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilizando o titulo */
+.missao-sobre h2 {
+    position: absolute;
+    font-size: 36px;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0px;
+    padding-bottom: 3px;
+    background-color: #000;
+}
+.missao-sobre .texto-missao {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: solid 3px #000;
+    text-align: center;
+    margin-top: 25.5px;
+    background-color: #fff;
+}
+.missao-sobre .texto-missao p {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    line-height: 36px;
+    color: #000;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+/* SOBRE-NOSSA_HISTORIA */
+.nossa-historia {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilizando o titulo */
+.nossa-historia h2 {
+    position: absolute;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    padding: 7px 0px;
+    padding-bottom: 3px;
+    background-color: #fff;
+    border: solid 3px #000;
+}
+.nossa-historia .texto-nossa-historia {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: solid 3px #000;
+    text-align: center;
+    margin-top: 25.5px;
+    background-color: #000;
+}
+.nossa-historia .texto-nossa-historia p {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    line-height: 36px;
+    color: #fff;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+/* SOBRE-LIDERES */
+/* Estilizando o titulo */
+.lideres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0px;
+}
+.lideres h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    font-family: Lato, sans-serif;
+}
+.lideres h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background-color: #000;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+.lideres .contant-lideres div {
+    margin-bottom: 20px;
+}
+.lideres .contant-lideres div p {
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: solid 3px #000;
+}
