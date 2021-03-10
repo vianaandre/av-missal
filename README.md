@@ -1,4 +1,4 @@
-<h1> Hello 👋 <h1/>
+<h1> Hello 👋 </h1>
   * A ideia do projeto é colocar em prática todo o meu conhecimento adquirido no curso de web 
   Design da Origamid.
   
