@@ -14,7 +14,7 @@
     codar em PHP, apenas utilizei de um plugin, já a parte do js, algumas foi eu que implementei, talvez esteja um pouco
     mais implementado, porém com o tempo irei refatorar algumas partes.
 </h3>
-<br/>
+<hr/>
 <div style="padding-left: 20px;border-left: 5px solid black;margin-bottom: 40px;">
    <h2 style="color: black;font-size: 18px;">Tecnologias Utilizadas:</h2>
     <br/>
@@ -23,7 +23,7 @@
    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 </div>
-<br/>
+<hr/>
  Links do Site:
 <a href="https://avmissal.com.br"
     style="padding: 10px 20px;font-size: 24px;text-decoration: none;color: white; background-color: black;"
