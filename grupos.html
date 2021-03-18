@@ -4,27 +4,24 @@
 <head>
     <title>AV-Missal | Grupos</title>
     <meta name="description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
+        content="Conheça como funciona os nossos ministérios, e qual a importância da comunhão na vida de um cristão">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="AV-Missal | Pertencente a Igreja Evangélica Verdade que Liberta">
+    <meta property="og:title" content="AV-Missal | Conheça nossos Ministérios">
     <meta property="og:description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
-    <meta property="og:url" content="http://avmissal.com">
+        content="Conheça como funciona os nossos ministérios, e qual a importância da comunhão na vida de um cristão">
+    <meta property="og:url" content="http://avmissal.com/grupos.html">
     <meta property="pg:image" content="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/grupos.css">
-    <link rel="stylesheet" href="css/responsivo.css">
-    <link rel="shortcut icon" href="">
-    <script>document.documentElement.classList.add('js')</script>
-    <script></script>
+    <link rel="shortcut icon" href="img/favicon_avmissal.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
 </head>
 
 <body>
@@ -34,22 +31,41 @@
             <a href="index.html" class="logo">
                 <img src="img/logo-avmissal.jpg" alt="Logo AV-Missal" title="Logo AV-Missal">
             </a>
-            <nav class="grid-10 navegacao">
-                <a href="sobre.html">
-                    Sobre
-                </a>
-                <a href="grupos.html" class="ativo">
-                    Grupos
-                </a>
-                <a href="eventos.html">
-                    Eventos
-                </a>
-                <a href="sermoes.html">
-                    Sermões
-                </a>
-                <a href="contato.html">
-                    Contato
-                </a>
+            <div class="toogle" id="toogle_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="grid-10 navegacao" id="active">
+                <ul>
+                    <li>
+                        <a href="sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="grupos.html" class="ativo">
+                            Grupos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eventos.html">
+                            Eventos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sermoes.html">
+                            Sermões
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -58,7 +74,7 @@
     <!-- abre intro-grupos -->
     <section class="intro intro-grupos">
         <div class="container content-intro">
-            <div class="grid-10 content-intro-interna">
+            <div class="grid-10 content-intro-interna deCima" data-anime="500">
                 <h1>GRUPOS</h1>
                 <p>conheça sobre nossa missão, nossa história e nossos valores</p>
             </div>
@@ -67,7 +83,7 @@
     <!-- fecha intro-grupos -->
 
     <!-- abre texto-grupos -->
-    <section class="container texto-grupos">
+    <section class="container texto-grupos deBaixo" data-anime="700">
         <img src="img/vetor/comunhao-grupos.svg" alt="Vetor" title="Vetor">
         <p>
             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
@@ -86,7 +102,7 @@
 
     <!-- abre grupos -->
     <section class="container grupos">
-        <div class="secao grid-16">
+        <div class="secao grid-16 daEsquerda" data-anime="900">
             <div class="img grid-8">
                 <img src="img/grupos/foto-pgs-grupos.jpg" alt="Imagem do Grupo de Pgs" title="Imagem do Grupo de Pgs">
             </div>
@@ -99,7 +115,7 @@
                 <a href="contato.html" class="saibamais">Saiba Mais</a>
             </div>
         </div>
-        <div class="secao grid-16 secao-2">
+        <div class="secao grid-16 secao-2 daDireita" data-anime="1100">
             <div class="img grid-8">
                 <img src="img/grupos/foto-f5-grupos.jpg" alt="Imagem do Grupo de Pgs" title="Imagem do Grupo de Pgs">
             </div>
@@ -112,7 +128,7 @@
                 <a href="contato.html" class="saibamais">Saiba Mais</a>
             </div>
         </div>
-        <div class="secao grid-16">
+        <div class="secao grid-16 daEsquerda" data-anime="1300">
             <div class="img grid-8">
                 <img src="img/grupos/foto-up-grupos.jpg" alt="Imagem do Grupo de Pgs" title="Imagem do Grupo de Pgs">
             </div>
@@ -125,7 +141,7 @@
                 <a href="contato.html" class="saibamais">Saiba Mais</a>
             </div>
         </div>
-        <div class="secao grid-16 secao-4">
+        <div class="secao grid-16 secao-4 daDireita" data-anime="1500">
             <div class="img grid-8">
                 <img src="img/grupos/foto-avkids-grupos.jpg" alt="Imagem do Grupo de Pgs"
                     title="Imagem do Grupo de Pgs">
@@ -143,46 +159,51 @@
     <!-- fecha grupos -->
 
     <!-- abre footer-home -->
-    <section class="footer-home">
-        <div class="container content">
-            <div class="grid-7 information-dados">
-                <h2>LOCALIZAÇÃO</h2>
-                <ul>
-                    <li>Rua João XXII, 00</li>
-                    <li>Missal/Paraná, 85890-000</li>
-                </ul>
-                <span>avmissal@contato.com</span>
+    <footer>
+        <section class="footer-home">
+            <div class="container content">
+                <div class="grid-7 information-dados">
+                    <h2>LOCALIZAÇÃO</h2>
+                    <ul>
+                        <li>Rua João XXII, 00</li>
+                        <li>Missal/Paraná, 85890-000</li>
+                    </ul>
+                    <span>avmissal@contato.com</span>
+                </div>
+                <div class="grid-7 conexacao">
+                    <h2>CONECTE-SE</h2>
+                    <form action="enviar.php" method="POST" class="form formphp">
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <button id="enviar" type="submit" name="enviar">ENVIAR</button>
+                    </form>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/avmissal" target="black">
+                                <img src="img/vetor/Facebook.svg" alt="Logo Facebook" title="Logo Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/av.missal/" target="black">
+                                <img src="img/vetor/instagram.svg" alt="Logo instagram" title="Logo Instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="grid-7 conexacao">
-                <h2>CONECTE-SE</h2>
-                <form action="">
-                    <input type="email" name="email" id="..." placeholder="E-mail" required>
-                    <button>ENVIAR</button>
-                </form>
-                <ul>
-                    <li>
-                        <a href="https://www.facebook.com/avmissal" target="black">
-                            <img src="img/vetor/Facebook.svg" alt="Logo Facebook" title="Logo Facebook">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/av.missal/" target="black">
-                            <img src="img/vetor/instagram.svg" alt="Logo instagram" title="Logo Instagram">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- fecha footer -->
+        </section>
+        <!-- fecha footer -->
 
-    <!-- abre direitos-home -->
-    <section class="container direitos">
-        <p>Direitos reservados da Verdade que Liberta</p>
-    </section>
-    <!-- fecha direitos-home -->
+        <!-- abre direitos-home -->
+        <section class="container direitos">
+            <p>Direitos reservados da Verdade que Liberta</p>
+        </section>
+        <!-- fecha direitos-home -->
     </footer>
 
+    <script src="js/menuHamburguer.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 

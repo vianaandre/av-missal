@@ -4,27 +4,24 @@
 <head>
     <title>AV-Missal | Eventos</title>
     <meta name="description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
+        content="Veja quais são os proxímos eventos da Igreja Verdade que Liberta de Missal">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="AV-Missal | Pertencente a Igreja Evangélica Verdade que Liberta">
+    <meta property="og:title" content="AV-Missal | Entre e veja os proxímos eventos da AV-Missal">
     <meta property="og:description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
-    <meta property="og:url" content="http://avmissal.com">
+        content="Veja quais são os proxímos eventos da Igreja Verdade que Liberta de Missal">
+    <meta property="og:url" content="http://avmissal.com.br/eventos.html">
     <meta property="pg:image" content="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/eventos.css">
-    <link rel="stylesheet" href="css/responsivo.css">
-    <link rel="shortcut icon" href="">
-    <script>document.documentElement.classList.add('js')</script>
-    <script></script>
+    <link rel="shortcut icon" href="img/favicon_avmissal.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <script>
+        document.documentElement.classList.add('js')
+    </script>
 </head>
 
 <body>
@@ -34,22 +31,41 @@
             <a href="index.html" class="logo">
                 <img src="img/logo-avmissal.jpg" alt="Logo AV-Missal" title="Logo AV-Missal">
             </a>
-            <nav class="grid-10 navegacao">
-                <a href="sobre.html">
-                    Sobre
-                </a>
-                <a href="grupos.html">
-                    Grupos
-                </a>
-                <a href="eventos.html" class="ativo">
-                    Eventos
-                </a>
-                <a href="sermoes.html">
-                    Sermões
-                </a>
-                <a href="contato.html">
-                    Contato
-                </a>
+            <div class="toogle" id="toogle_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="grid-10 navegacao" id="active">
+                <ul>
+                    <li>
+                        <a href="sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="grupos.html">
+                            Grupos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eventos.html" class="ativo">
+                            Eventos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sermoes.html">
+                            Sermões
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -58,7 +74,7 @@
     <!-- abre intro-eventos -->
     <section class="intro intro-eventos">
         <div class="container content-intro">
-            <div class="grid-10 content-intro-interna">
+            <div class="grid-10 content-intro-interna deCima" data-anime="500">
                 <h1>GRUPOS</h1>
                 <p>conheça sobre nossa missão, nossa história e nossos valores</p>
             </div>
@@ -69,7 +85,7 @@
     <!-- abre eventos -->
     <section class="eventos">
         <div class="container secao-eventos-1">
-            <div class="grid-1-3 evento-evento">
+            <div class="grid-1-3 evento-evento deCima" data-anime="700">
                 <img src="img/vetor/vigilia.svg" alt="Ícone de Vígilia" title="Ícone de Vígilia">
                 <div>
                     <h3>26/fev</h3>
@@ -81,7 +97,7 @@
                     <a href="contato.html" class="saibamais">Saiba Mais</a>
                 </div>
             </div>
-            <div class="grid-1-3 evento-evento">
+            <div class="grid-1-3 evento-evento deCima" data-anime="900">
                 <img src="img/vetor/bateria.svg" alt="Ícone de Bateria" title="Ícone de Bateria">
                 <div>
                     <h3>27/fev</h3>
@@ -93,7 +109,7 @@
                     <a href="contato.html" class="saibamais">Saiba Mais</a>
                 </div>
             </div>
-            <div class="grid-1-3 evento-evento">
+            <div class="grid-1-3 evento-evento deCima" data-anime="1100">
                 <img src="img/home/f5-logo.jpg" alt="Logo do F5" title="Logo do F5">
                 <div>
                     <h3>26/fev</h3>
@@ -107,7 +123,7 @@
             </div>
         </div>
         <div class="container secao-evento-2">
-            <div class="grid-1-3 evento-evento">
+            <div class="grid-1-3 evento-evento deCima" data-anime="1300">
                 <img src="img/vetor/cruz.svg" alt="Ícone de Cruz" title="Ícone de Cruz">
                 <div>
                     <h3>01/mar</h3>
@@ -119,7 +135,7 @@
                     <a href="contato.html" class="saibamais">Saiba Mais</a>
                 </div>
             </div>
-            <div class="grid-1-3 evento-evento">
+            <div class="grid-1-3 evento-evento" data-anime="1500">
                 <img src="img/vetor/usuarios-com-perfil-de-grupo.svg" alt="Ícone de Cruz" title="Ícone de Cruz">
                 <div>
                     <h3>04/mar</h3>
@@ -131,7 +147,7 @@
                     <a href="contato.html" class="saibamais">Saiba Mais</a>
                 </div>
             </div>
-            <div class="grid-1-3 evento-evento">
+            <div class="grid-1-3 evento-evento deCima" data-anime="1700">
                 <img src="img/vetor/oracao.svg" alt="Ícone de Cruz" title="Ícone de Cruz">
                 <div>
                     <h3>07/mar</h3>
@@ -162,9 +178,9 @@
                 </div>
                 <div class="grid-7 conexacao">
                     <h2>CONECTE-SE</h2>
-                    <form action="">
-                        <input type="email" name="email" id="..." placeholder="E-mail" required>
-                        <button>ENVIAR</button>
+                    <form action="enviar.php" method="POST" class="form formphp">
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <button id="enviar" type="submit" name="enviar" >ENVIAR</button>
                     </form>
                     <ul>
                         <li>
@@ -191,7 +207,10 @@
     </footer>
     <!-- fecha o footer-->
 
-
+    <script src="js/menuHamburguer.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

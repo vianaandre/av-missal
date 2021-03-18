@@ -2,31 +2,32 @@
 <html lang="pt-BR">
 
 <head>
-    <title>AV-Missal | Pertencente a Igreja Evangélica Verdade que Liberta</title>
+    <title>AV-Missal | (99) 9999-9999</title>
     <meta name="description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
+        content="Entre em contato com gente caso tenha alguma duvída">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="AV-Missal | Pertencente a Igreja Evangélica Verdade que Liberta">
+    <meta property="og:title" content="AV-Missal | Contato">
     <meta property="og:description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
-    <meta property="og:url" content="http://avmissal.com">
+        content="Entre em contato com gente caso tenha alguma duvída">
+    <meta property="og:url" content="http://avmissal.com.br/contato.html">
     <meta property="pg:image" content="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/responsivo.css">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="img/favicon_avmissal.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
     <script>
         document.documentElement.classList.add('js')
     </script>
-    <script></script>
+    <style>
+        .nao-aparece {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -36,22 +37,41 @@
             <a href="index.html" class="logo">
                 <img src="img/logo-avmissal.jpg" alt="Logo AV-Missal" title="Logo AV-Missal">
             </a>
-            <nav class="grid-10 navegacao">
-                <a href="sobre.html">
-                    Sobre
-                </a>
-                <a href="grupos.html">
-                    Grupos
-                </a>
-                <a href="eventos.html">
-                    Eventos
-                </a>
-                <a href="sermoes.html">
-                    Sermões
-                </a>
-                <a href="contato.html" class="ativo">
-                    Contato
-                </a>
+            <div class="toogle" id="toogle_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="navegacao" id="active">
+                <ul>
+                    <li>
+                        <a href="sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="grupos.html">
+                            Grupos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eventos.html">
+                            Eventos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sermoes.html">
+                            Sermões
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html" class="ativo">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -60,7 +80,7 @@
     <!-- abre intro-contato -->
     <section class="intro intro-contato">
         <div class="container content-intro">
-            <div class="grid-10 content-intro-interna">
+            <div class="grid-10 content-intro-interna deCima" data-anime="800">
                 <h1>CONTATO</h1>
                 <p>entre em contato caso haja qualquer tipo de duvída</p>
             </div>
@@ -69,17 +89,22 @@
     <!-- fecha intro-contato 323 400-->
 
     <!-- abre form e mapa -->
-    <section class="container form_mapa">
+    <section class="container form_mapa deCima" data-anime="1000">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.139644949957!2d-54.246137985298006!3d-25.097133825973234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f405dfe86d497f%3A0x5d94259a53e32d8a!2sIgreja%20Verdade%20que%20Liberta!5e0!3m2!1spt-BR!2sbr!4v1615331987461!5m2!1spt-BR!2sbr"
             width="" height="323" style="border:0;" allowfullscreen="" loading="lazy" class="grid-8"></iframe>
-        <form action="" class="form">
-            <input type="text" placeholder="NOME" class="grid-8" required>
-            <input type="email" name="email" id="email" placeholder="E-MAIL" class="grid-8" required>
-            <input type="tel" name="telefone" id="telefone" placeholder="TELEFONE" class="grid-8" required>
-            <textarea name="texto" id="texto" cols="30" rows="5" placeholder="MENSAGEM" class="grid-8"
-                required></textarea>
-            <button class="grid-">ENVIAR</button>
+        <form action="enviar.php" method="POST" class="form formphp">
+            <input id="nome" type="text" name="text" placeholder="Nome" class="grid-8" required>
+            <input id="email" type="email" name="email" id="email" placeholder="E-mail" class="grid-8" required>
+            <input id="telefone" type="tel" name="telefone" id="telefone" placeholder="Telefone com DDD" class="grid-8"
+            OnKeyPress="mascara(this)" maxlength="15" required>
+            <textarea id="textarea" type='textarea' name="textarea" id="texto" cols="30" rows="5" placeholder="Mensagem"
+                class="grid-8" required></textarea>
+            <p class="nao-aparece">Se vocé não é um Robô não preencha esse Campo</p>
+            <input type="text" name="leaveblack" class="nao-aparece">
+            <p class="nao-aparece">Se vocé não é um Robô, não mude esse Campo</p>
+            <input type="text" name="dontchange" class="nao-aparece" value="http://">
+            <button id="enviar" type="submit" name="enviar">ENVIAR</button>
         </form>
     </section>
     <!-- fecha form e mapa -->
@@ -91,15 +116,15 @@
         <!-- abre seçao de information -->
         <section class="information">
             <div class="container content-iformation">
-                <div class="grid-3">
+                <div class="grid-3 deCima" data-anime="1200">
                     <img src="img/vetor/o-email.svg" alt="Ícone de E-MAIL" title="Ícone de E-MAIL">
                     <h3>E-mail</h3>
                 </div>
-                <div class="grid-3">
+                <div class="grid-3 deCima" data-anime="1400">
                     <img src="img/vetor/pin.svg" alt="Ícone de LOCALIZAÇÃO" title="Ícone de LOCALIZAÇÃO">
                     <h3>Localização</h3>
                 </div>
-                <div class="grid-3">
+                <div class="grid-3 deCima" data-anime="1600">
                     <img src="img/vetor/placa-de-telefone.svg" alt="Íconde de TELEFONE" title="Íconde de TELEFONE">
                     <h3>Telefone</h3>
                 </div>
@@ -126,9 +151,12 @@
         <!-- fecha direitos-home -->
     </footer>
     <!-- fecha o footer-->
-
+    <script defer src="js/mascaraFormulario.js"></script>
+    <script src="js/menuHamburguer.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
 </html>
-

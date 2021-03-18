@@ -2,30 +2,32 @@
 <html lang="pt-BR">
 
 <head>
-    <title>AV-Missal | Pertencente a Igreja Evangélica Verdade que Liberta</title>
+    <title>AV-Missal | Apaixonados pela Palavra do Senhor</title>
     <meta name="description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
+        content="Entre e conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideais">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="AV-Missal | Pertencente a Igreja Evangélica Verdade que Liberta">
+    <meta property="og:title" content="AV-Missal | Apaixonados pela Palavra do Senhor">
     <meta property="og:description"
         content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
-    <meta property="og:url" content="http://avmissal.com">
+    <meta property="og:url" content="http://avmissal.com.br">
     <meta property="pg:image" content="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsivo.css">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="img/favicon_avmissal.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
     <script>
         document.documentElement.classList.add('js')
     </script>
-    <script></script>
+    <style>
+        .nao-aparece {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,48 +37,99 @@
             <a href="index.html" class="logo">
                 <img src="img/logo-avmissal.jpg" alt="Logo AV-Missal" title="Logo AV-Missal">
             </a>
-            <nav class="grid-10 navegacao">
-                <a href="sobre.html">
-                    Sobre
-                </a>
-                <a href="grupos.html">
-                    Grupos
-                </a>
-                <a href="eventos.html">
-                    Eventos
-                </a>
-                <a href="sermoes.html">
-                    Sermões
-                </a>
-                <a href="contato.html">
-                    Contato
-                </a>
+            <div class="toogle" id="toogle_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="navegacao" id="active">
+                <ul>
+                    <li>
+                        <a href="sobre.html">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="grupos.html">
+                            Grupos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eventos.html">
+                            Eventos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sermoes.html">
+                            Sermões
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
     <!-- fecha header -->
 
     <!-- abre intro-home -->
-    <section class="intro-home">
-        <div class="container">
-            <div class="intro-content">
-                <div class="grid-6 textos">
-                    <blockquote>
-                        <p>
-                            "E conhecerão a verdade, e a verdade os
-                            libertará"
-                        </p>
-                        <cite>JOÃO 8:32</cite>
-                    </blockquote>
-                    <h2>AV-MISSAL</h2>
+    <section class="intro-slides">
+        <section class="intro-home select slide">
+            <div class="container deCima" data-anime="500">
+                <div class="intro-content">
+                    <div class="grid-6 textos">
+                        <blockquote data-anime="500" class="deCima">
+                            <p>
+                                "E conhecerão a verdade, e a verdade os
+                                libertará"
+                            </p>
+                            <cite>JOÃO 8:32</cite>
+                        </blockquote>
+                        <h2 data-anime="700">AV-MISSAL</h2>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="intro-home slide">
+            <div class="container deCima" data-anime="500">
+                <div class="intro-content">
+                    <div class="grid-6 textos">
+                        <blockquote data-anime="500" class="deCima">
+                            <p>
+                                "Na verdade, na verdade vos digo que aquele que crê em mim tem a vida eterna".
+                            </p>
+                            <cite>João 6:47</cite>
+                        </blockquote>
+                        <h2 data-anime="700">AV-MISSAL</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="intro-home slide">
+            <div class="container deCima" data-anime="500">
+                <div class="intro-content">
+                    <div class="grid-6 textos">
+                        <blockquote data-anime="500" class="deCima">
+                            <p>
+                                "Amados, se Deus assim nos amou, também nòs devemos amar uns aos outros"
+                            </p>
+                            <cite>1 João 4:11,12</cite>
+                        </blockquote>
+                        <h2 data-anime="700">AV-MISSAL</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <!-- fecha-intro-home -->
 
     <!-- abre home-sobre -->
-    <section class="container home-sobre">
+    <section class="container home-sobre deCima" data-anime="900">
         <div class="content-home-sobre">
             <h2 class="grid-6">
                 CONHEÇA UM
@@ -84,7 +137,7 @@
                 NOSSA FAMÍLIA
             </h2>
             <div class="quebrador"></div>
-            <div class="grid-9 information">
+            <div class="grid-9 information-home-sobre">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
@@ -101,11 +154,11 @@
     <!-- abre home-grupos -->
     <section class="home-grupos">
         <div class="container content-home-grupos">
-            <div class="grid-8 grupos">
+            <div class="grid-8 grupos daEsquerda" data-anime="1500">
                 <h2>Grupos</h2>
-                <img src="img/home/foto-grupos-home.jpg" alt="" srcset="">
+                <img src="/" alt="Imagem Grupos" title="Imagem Grupos" id="img_grupos">
             </div>
-            <div class="grid-7 information-home-grupos">
+            <div class="grid-7 information-home-grupos daDireita" data-anime="1500">
                 <p>
                     Ao contrário da crença popular, Lorem Ipsum não
                     é simplesmente um texto aleatório. Tem raízes em
@@ -123,11 +176,11 @@
 
     <!-- abre home-eventos -->
     <section class="container home-eventos">
-        <h2 class="grid-4 titulo">
+        <h2 class="grid-4 titulo deCima" data-anime="1700">
             PROXÍMOS
             EVENTOS
         </h2>
-        <div class="content-home-eventos">
+        <div class="content-home-eventos deBaixo" data-anime="1700">
             <div class="grid-5 evento">
                 <img src="img/vetor/bateria.svg" alt="Ícone de Bateria" title="Ícone de Bateria">
                 <div>
@@ -167,12 +220,12 @@
 
     <!-- abre home-sermoes -->
     <section class="sermoes">
-        <div class="container">
+        <div class="container deCima" data-anime="2200">
             <div class="grid-16 home-sermoes">
                 <h2>ULTIMO SERMÃO</h2>
                 <a href="#">
                     <div class="grid-12 link">
-                        <img src="img/vetor/face.svg" alt="Logo Facebook" title="Logo Facebook">
+                        <img src="img/vetor/face.svg" alt="Logo Facebook" title="Logo Facebook" id="vetor_sermoes">
                         <h3>PREPARANDO-SE PARA A PORÇÃO DOBRADA</h3>
                     </div>
                 </a>
@@ -187,7 +240,7 @@
     <footer>
         <!-- abre seção de intro-footer-->
         <section class="intro-footer">
-            <div class="container frase">
+            <div class="container frase deCima" data-anime="3000">
                 <div class="content-intro-footer">
                     <blockquote class="grid-5">
                         <p class="grid-8">
@@ -217,9 +270,9 @@
                 </div>
                 <div class="grid-7 conexacao">
                     <h2>CONECTE-SE</h2>
-                    <form action="">
-                        <input type="email" name="email" id="..." placeholder="E-mail" required>
-                        <button>ENVIAR</button>
+                    <form action="enviar.php" method="POST" class="form formphp">
+                        <input  id="email" type="email" name="email" id="email" placeholder="E-mail" required>
+                        <button id="enviar" type="submit" name="enviar">ENVIAR</button>
                     </form>
                     <ul>
                         <li>
@@ -246,6 +299,12 @@
     </footer>
     <!-- fecha o footer-->
 
+    <script src="js/simple-slide.js"></script>
+    <script src="js/responsivo.js"></script>
+    <script src="js/menuHamburguer.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 

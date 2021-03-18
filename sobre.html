@@ -4,29 +4,24 @@
 <head>
     <title>AV-Missal | Sobre</title>
     <meta name="description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
+        content="Conheça um pouco mais da nossa Igreja e desfrute da nossa história e de como surgimos">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="AV-Missal | Pertencente a Igreja Evangélica Verdade que Liberta">
+    <meta property="og:title" content="AV-Missal | Sobre">
     <meta property="og:description"
-        content="Entre e Conheça um pouco da Igreja Verdade que Liberta de Missal, descubra como uma igreja Evangélica funciona e quais são os seus ideias">
-    <meta property="og:url" content="http://avmissal.com">
+        content="Conheça um pouco mais da nossa Igreja e desfrute da nossa história e de como surgimos">
+    <meta property="og:url" content="http://avmissal.com.br/sobre.html">
     <meta property="pg:image" content="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/responsivo.css">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="img/favicon_avmissal.svg">
+    <meta name="msapplication-TileColor" content="#ffffff">
     <script>
         document.documentElement.classList.add('js')
     </script>
-    <script></script>
 </head>
 
 <body>
@@ -36,22 +31,41 @@
             <a href="index.html" class="logo">
                 <img src="img/logo-avmissal.jpg" alt="Logo AV-Missal" title="Logo AV-Missal">
             </a>
-            <nav class="grid-10 navegacao">
-                <a href="sobre.html" class="ativo">
-                    Sobre
-                </a>
-                <a href="grupos.html">
-                    Grupos
-                </a>
-                <a href="eventos.html">
-                    Eventos
-                </a>
-                <a href="sermoes.html">
-                    Sermões
-                </a>
-                <a href="contato.html">
-                    Contato
-                </a>
+            <div class="toogle" id="toogle_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="grid-10 navegacao" id="active">
+                <ul>
+                    <li>
+                        <a href="sobre.html" class="ativo">
+                            Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="grupos.html">
+                            Grupos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="eventos.html">
+                            Eventos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sermoes.html">
+                            Sermões
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -59,7 +73,7 @@
 
     <!-- abre intro-sobre -->
     <section class="intro intro-sobre">
-        <div class="container content-intro">
+        <div class="container content-intro deCima" data-anime="500">
             <div class="grid-10 content-intro-interna">
                 <h1>SOBRE</h1>
                 <p>conheça sobre nossa missão, nossa história e nossos valores</p>
@@ -69,7 +83,7 @@
     <!-- fecha intro-sobre -->
 
     <!-- abre content-missao -->
-    <section class="container missao-sobre">
+    <section class="container missao-sobre deCima" data-anime="700">
         <h2 class="grid-10">QUAL É A NOSSA MISSÃO</h2>
         <div class="grid-16 texto-missao">
             <p>
@@ -84,7 +98,7 @@
     <!-- fecha content-missao -->
 
     <!-- abre nossa-historia -->
-    <section class="container nossa-historia">
+    <section class="container nossa-historia deCima" data-anime="900">
         <h2 class="grid-10">NOSSA HISTÓRIA</h2>
         <div class="grid-16 texto-nossa-historia">
             <p>
@@ -100,8 +114,8 @@
 
     <!-- abre lideres -->
     <section class="container lideres">
-        <h2>NOSSOS LÍDERES</h2>
-        <div class="contant-lideres">
+        <h2 data-anime="1100" class="deCima">NOSSOS LÍDERES</h2>
+        <div class="contant-lideres deCima" data-anime="1300">
             <div class="grid-1-3">
                 <img src="img/sobre/pastora.jpg" alt="Nossa Pastora" title="Pastora">
                 <p>
@@ -156,9 +170,9 @@
                 </div>
                 <div class="grid-7 conexacao">
                     <h2>CONECTE-SE</h2>
-                    <form action="">
-                        <input type="email" name="email" id="..." placeholder="E-mail" required>
-                        <button>ENVIAR</button>
+                    <form action="enviar.php" method="POST" class="form formphp">
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <button id="enviar" type="submit" name="enviar" >ENVIAR</button>
                     </form>
                     <ul>
                         <li>
@@ -183,7 +197,11 @@
         </section>
         <!-- fecha direitos-home -->
     </footer>
-
+    
+    <script src="js/menuHamburguer.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
 </body>
-</html>
 
+</html>

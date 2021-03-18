@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="face-mobile" transform="translate(-1 -0.379)">
+    <g id="bg-icone-home" transform="translate(1 0.379)" stroke="#fff" stroke-width="1">
+      <rect width="60" height="60" stroke="none"/>
+      <rect x="0.5" y="0.5" width="59" height="59" fill="none"/>
+    </g>
+    <path id="Facebook" d="M33.512,12.748v5.507H29v6.734h4.512V45H42.78V24.99H49s.582-3.229.865-6.76H42.815v-4.6a2.108,2.108,0,0,1,2.009-1.614h5.049V5H43.008C33.282,5,33.512,11.742,33.512,12.748Z" transform="translate(-8 5.378)" fill="#fff"/>
+  </g>
+</svg>
