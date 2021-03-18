@@ -15,13 +15,12 @@
     mais implementado, porém com o tempo irei refatorar algumas partes.
 </h3>
 <hr/>
-<div style="padding-left: 20px;border-left: 5px solid black;margin-bottom: 40px;">
-   <h2 style="color: black;font-size: 18px;">Tecnologias Utilizadas:</h2>
-    <br/>
-   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+ <h3 style="color: black;font-size: 18px;">Tecnologias Utilizadas:</h3>
+ <br/>
+ <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 </div>
 <hr/>
  Links do Site:
