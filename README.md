@@ -15,7 +15,7 @@
     mais implementado, porém com o tempo irei refatorar algumas partes.
 </h3>
 <hr/>
-Links do Site:
+Link do Site:
 <a href="https://avmissal.com.br"
     style="padding: 10px 20px;font-size: 24px;text-decoration: none;color: white; background-color: black;"
     target="black">
