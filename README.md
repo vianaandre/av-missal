@@ -14,6 +14,7 @@
     codar em PHP, apenas utilizei de um plugin, já a parte do js, algumas foi eu que implementei, talvez esteja um pouco
     mais implementado, porém com o tempo irei refatorar algumas partes.
 </h3>
+<br/>
 <div style="padding-left: 20px;border-left: 5px solid black;margin-bottom: 40px;">
    <h2 style="color: black;font-size: 18px;">Tecnologias Utilizadas:</h2>
     <br/>
