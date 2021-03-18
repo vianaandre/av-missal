@@ -1,19 +1,19 @@
 <h1> Hello 👋 </h1>
 
-<p style="padding-left: 20px;border-left: 5px solid black;width: 70%;font-size: 18px;">
+<h3 style="padding-left: 20px;border-left: 5px solid black;width: 70%;font-size: 18px;">
     Site já está no ar, caso você queira ver ele, basta acessar o link que está abaixo do texto. O modelo desse site é
     institucional, onde terá apenas informações, e também um formulário.
-</p>
-<p style="padding-left: 20px;border-left: 5px solid black;width: 70%;font-size: 18px;">
+</h3>
+<h3 style="padding-left: 20px;border-left: 5px solid black;width: 70%;font-size: 18px;">
     A ideias de cria-lo veio de mim mesmo, basicamente eu queria colocar meus conhecimentos adquiridos em CSS, HTML E JS
     na prática, e esse foi uma boa maneira de colocar, onde tive a oportunidade de criar um projeto que já está em
     completo funcionamento.
-</p>
-<p style="padding-left: 20px;border-left: 5px solid black;width: 70%;font-size: 18px;">
+</h3>
+<h3 style="padding-left: 20px;border-left: 5px solid black;width: 70%;font-size: 18px;">
     O site foi criado com HTML, CSS e JS, e para o envio de E-mail utilizei o phpmailer. Mas não se engane, não sei
     codar em PHP, apenas utilizei de um plugin, já a parte do js, algumas foi eu que implementei, talvez esteja um pouco
     mais implementado, porém com o tempo irei refatorar algumas partes.
-</p>
+</h3>
 <div style="padding-left: 20px;border-left: 5px solid black;margin-bottom: 40px;">
    <h2 style="color: black;font-size: 18px;">Tecnologias Utilizadas:</h2>
     <br/>
