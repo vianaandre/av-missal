@@ -15,21 +15,20 @@
     mais implementado, porém com o tempo irei refatorar algumas partes.
 </p>
 <div style="padding-left: 20px;border-left: 5px solid black;margin-bottom: 40px;">
-    <span style="color: black;font-size: 18px;">Tecnologias Utilizadas:</span>
-    <div style="margin-top: 10px;">
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-    </div>
+   <span style="color: black;font-size: 18px;">Tecnologias Utilizadas:</span>
+    
+   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 </div>
-
+<br/>
 <a href="https://avmissal.com.br"
     style="padding: 10px 20px;font-size: 24px;text-decoration: none;color: white; background-color: black;"
     target="black">
-    avmissal.com.br
+    Links do Site: avmissal.com.br
 </a>
-
+<hr/>
 <h3 style="margin-top: 40px;">👦 André Gustavo Viana 👦</h3>
 
 <a href="https://www.instagram.com/andre_gust_viana/" style="margin-right: 10px;">
