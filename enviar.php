@@ -11,7 +11,7 @@ require "./PHPMailer/src/SMTP.php";
   
 // Mudar Aqui o e-mail
 $email_envio = "contato@avmissal.com.br"; // E-mail do site (ex: contato@seusite.com)
-$email_pass = "abtsfer987#"; // Senha do e-mail
+$email_pass = ""; // Senha do e-mail
 
 $site_name = "AV-MISSAL"; // Nome do Site
 $site_url = "www.avmissal.com.br"; // URL do Site
