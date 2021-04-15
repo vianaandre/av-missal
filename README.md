@@ -29,13 +29,13 @@
    cd av-missal
    ```
    
-1. Iniciando o git
+3. Iniciando o git
 
    ```sh
    git init
    ```
 
-2. Fazendo o pull do Código
+4. Fazendo o pull do Código
 
    ```sh
    git pull url-repositorio
