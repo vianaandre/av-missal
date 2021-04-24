@@ -4,13 +4,13 @@ img = document.querySelectorAll('.slide'),
 max = img.length
 
 const style = img[0].style
-style.background = 'url("../img/home/bg-intro-home.jpg") no-repeat center'
+style.background = 'url("img/home/bg-intro-home.jpg") no-repeat center'
 style.backgroundSize = 'cover'
 const styleDois = img[1].style
-styleDois.background = 'url("../img/home/bg-intro-home-2.jpg") no-repeat center'
+styleDois.background = 'url("img/home/bg-intro-home-2.jpg") no-repeat center'
 styleDois.backgroundSize = 'cover'
 const styleTres = img[2].style
-styleTres.background = 'url("../img/home/bg-intro-home-3.jpg") no-repeat center'
+styleTres.background = 'url("img/home/bg-intro-home-3.jpg") no-repeat center'
 styleTres.backgroundSize = 'cover'
 
 function nextSlides() {
