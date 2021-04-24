@@ -1,5 +1,7 @@
-<p align="center"> 
-   <img src="https://instagram.figu5-1.fna.fbcdn.net/v/t51.2885-19/s150x150/73150397_2154899124805702_1143453382346801152_n.jpg?tp=1&_nc_ht=instagram.figu5-1.fna.fbcdn.net&_nc_ohc=a6nMTXWqSiMAX9XurYf&edm=ABfd0MgAAAAA&ccb=7-4&oh=1b4b555995759074000ce63e9a1c7df9&oe=609C2FD1&_nc_sid=7bff83" /> 
+<p align="center">
+<a href="https://vianaandre.github.io/av-missal/">
+<img src="https://camo.githubusercontent.com/3094aee0b19b67dfd136c9cda98359b3b3233e7aa6b84fe3f1bac7a03febb132/68747470733a2f2f696e7374616772616d2e66696775352d312e666e612e666263646e2e6e65742f762f7435312e323838352d31392f73313530783135302f37333135303339375f323135343839393132343830353730325f313134333435333338323334363830313135325f6e2e6a70673f74703d31265f6e635f68743d696e7374616772616d2e66696775352d312e666e612e666263646e2e6e6574265f6e635f6f68633d61366e4d5458577153694d41583958757259662665646d3d41426664304d674141414141266363623d372d34266f683d3162346235353539393537353930373430303063653633653961316337646639266f653d3630394332464431265f6e635f7369643d376266663833" />
+</a>
 <h1 align="center"> Av-Missal </h1>
 
 <p align="center"> 
@@ -39,13 +41,21 @@
 
    ```sh
    git pull url-repositorio
-   ```
+   ``
 
 <hr/>
 
 <p align="center">
+   A hospedagem foi feita via github pages e caso queira acessar basta entra nesse link <br />
+   https://vianaandre.github.io/av-missal/ <br /> <br />
+   <img src="https://www.nicepng.com/png/detail/178-1787529_deploy-to-github-pages-github-pages-logo-png.png" width=200 />
+<p align="center">
+   
+<hr />
+
+<p align="center" >
 <img src="https://media.tenor.com/images/04874f6ec9cdae3f47b6abfff09cb60c/tenor.gif" width="100"/>
- </p>
+</p>
 <h3 align="center">Feito com carinho por André</h3>
 <p align="center">
 <a href="https://www.instagram.com/andre_gust_viana/">
